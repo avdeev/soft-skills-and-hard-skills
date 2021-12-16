@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Soft skills vs Hard skills. Собираем идеальную команду</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+  <style>
+    .shower {
+      --slide-ratio: calc(16 / 9);
+      --ribbon-size: 40px;
+      --slide-side: 41px;
+    }
+
+    .progress::before {
+      background-color: #ff0000;
+    }
+
+    .slide {
+      padding-top: 51px;
+      background-image: url("pictures/slide-cover.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+    }
+
+    .slide.clear {
+      background-image: none;
+    }
+
+    .slide::after {
+      top: auto;
+      bottom: 10px;
+      left: auto;
+      right: 30px;
+      background: none;
+      color: #000;
+    }
+
+    .slide h2 {
+      color: #000;
+      font-size: 60px;
+    }
+
+    .slide h2.shout {
+      font-size: 120px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      width: 80%;
+    }
+
+    .slide .brand {
+      color: #ff0000;
+    }
+
+    .slide ol, .slide ul {
+      padding-left: 40px;
+    }
+
+    .slide li {
+      font-size: 28px;
+    }
+
+    .slide pre {
+      font-size: 30px;
+    }
+
+    .cover {
+      z-index: 1;
+    }
+  </style>
+  </style>
+</head>
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Soft skills vs&nbsp;Hard skills. Собираем идеальную команду</h1>
+    <p><a href="https://alexey-avdeev.com/">Алексей Авдеев</a>, <a href="https://mish.design/">Mish.Design</a></p>
+  </header>
+
+  <section class="slide clear" id="cover">
+    <div style="width: 640px; padding-top: 30px; margin-left: -10px;">
+      <h2>Soft skills vs&nbsp;Hard skills. Собираем идеальную команду</h2>
+      <p><a href="https://alexey-avdeev.com/">Алексей Авдеев</a>, <a href="https://mish.design/">Mish.Design</a></p>
+    </div>
+    <style>
+      .shower #cover {
+        --slide-side: 60px;
+      }
+      #cover {
+        background: #fff url("pictures/title-cover.png") no-repeat center center;
+        background-size: contain;
+      }
+      #cover h2 {
+        margin: 0;
+        color: #000;
+        font-size: 62px;
+      }
+      #cover p {
+        margin: 18px 0 0;
+        color: #000;
+        font-size: 24px;
+      }
+      #cover p a {
+        color: #000;
+      }
+    </style>
+  </section>
+
+  <section class="slide">
+    <h2>👨‍💻 О себе</h2>
+
+    <ol>
+      <li>👨 Алексей Авдеев (<a href="https://twitter.com/avdeev_alexey">https://twitter.com/avdeev_alexey</a>)</li>
+      <li class="next">👔 CTO, руковожу разработкой</li>
+      <li class="next">🏙️ Из Нижнего Новгорода, работаю в Москве</li>
+      <li class="next">🌐 <a href="https://mish.design/">Mish.Design</a></li>
+      <li class="next">👴 Программирую с 2002 года</li>
+    </ol>
+  </section>
+
+	<section class="slide">
+    <h2 class="shout brand">Аналитика</h2>
+  </section>
+
+  <section class="slide clear">
+    <img class="cover w" src="pictures/smirnov.png" alt="">
+  </section>
+
+	<section class="slide">
+    <h2 class="shout">Не&nbsp;забывайте про аналитику</h2>
+  </section>
+
+  <section class="slide">
+    <h2>Домашняя работа</h2>
+    <p>По&nbsp;этому уроку нет домашней работы</p>
+  </section>
+
+  <section class="slide">
+    <h2 class="shout" style="font-size: 2.6em;">Следующий урок: <span class="brand">Зачёт</nobr></span></h2>
+  </section>
+
+  <section class="slide">
+    <h2>👏 Спасибо!</h2>
+
+    <ul>
+      <li>👨 Алексей Авдеев</li>
+      <li>🌐 <a href="https://github.com/avdeev">github.com/avdeev</a></li>
+      <li>🌐 <a href="https://twitter.com/avdeev_alexey">twitter.com/avdeev_alexey</a></li>
+      <li>🌐 <a href="https://alexey-avdeev.com/uml-and-others/">alexey-avdeev.com/uml-and-others</a></li>
+      <li>🌐 <a href="https://mish.design/">Mish.Design</a></li>
+    </ul>
+
+    <img src="pictures/iam.jpeg" alt="я" style="height: 230px; position: absolute; right: 15px; top: 141px;">
+  </section>
+
+  <footer class="badge">
+    <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+  </footer>
+
+  <div class="progress"></div>
+
+  <script src="shower/shower.js"></script>
+  <!-- Copyright © 2021 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
